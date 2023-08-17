@@ -141,7 +141,7 @@ export default function Home() {
 
       <div className="aindaComDuvida">
         <h1>AINDA COM DÚVIDA?</h1>
-        <p>meu defeito é amar muito</p>
+        <p>Abaixo você encontra as perguntas mais comuns sobre a mentoria</p>
 
         <div>
           <PerguntasFrequentes />
