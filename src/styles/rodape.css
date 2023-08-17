@@ -6,6 +6,10 @@
     color: #000;
 }
 
+.rodape p {
+    margin: 50px 0 30px 0;
+} 
+
 .voltarAoTopo {
     display: flex;
     align-items: center;
