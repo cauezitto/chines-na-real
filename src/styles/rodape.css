@@ -1,0 +1,13 @@
+.rodape {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    color: #000;
+}
+
+.voltarAoTopo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

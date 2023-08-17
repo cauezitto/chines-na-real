@@ -7,6 +7,7 @@ import "../styles/quemSeraSeuProfessor.css";
 import "../styles/garantia.css";
 import "../styles/naMidia.css";
 import "../styles/aindaComDuvida.css";
+import "../styles/rodape.css";
 
 import type { AppProps } from "next/app";
 

@@ -6,6 +6,7 @@ import aulagratuita from "../../public/imgAulaGratuita.svg";
 import youtubeLogo from "../../public/youtubeLogo.svg";
 import r7Logo from "../../public/r7Logo.svg";
 import globonewsLogo from "../../public/globoNewsLogo.svg";
+import voltaAoTopo from "../../public/voltaAoTopo.svg";
 
 import Image from "next/image";
 
@@ -151,8 +152,23 @@ export default function Home() {
           <PerguntasFrequentes />
         </div>
 
-        <Image src={logoPrincipal} alt="logotipo chines na real" width={160} />
-        <Button />
+        <div className="logoComBotaoAindaComDuvida">
+          <Image
+            src={logoPrincipal}
+            alt="logotipo chines na real"
+            width={160}
+          />
+          <Button />
+        </div>
+      </div>
+
+      <div className="rodape">
+        <div className="voltarAoTopo">
+          <Image src={voltaAoTopo} alt="" width={35} />
+          <h1>voltar ao topo</h1>
+        </div>
+
+        <p>© 2023 Chinês na Real</p>
       </div>
     </>
   );
