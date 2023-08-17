@@ -44,7 +44,6 @@ export default function Home() {
           />
         </div>
       </div>
-
       <div className="modulo_da_mentoria">
         <div className="textoEimmagem">
           <div className="textos_modulo_da_mentoria">
@@ -68,7 +67,6 @@ export default function Home() {
           <ModulosMentoriaQuadrado />
         </div>
       </div>
-
       <div className="oq_dizem_os_alunos">
         <Image src={aulagratuita} alt="" width={1100} />
         <div>
@@ -114,7 +112,6 @@ export default function Home() {
           />
         </div>
       </div>
-
       <div className="garantia_de_7dias">
         <div className="garantia02">
           <h1>
@@ -133,7 +130,6 @@ export default function Home() {
           <Button />
         </div>
       </div>
-
       <div className="naMidia">
         <h1>Na Mídia</h1>
         <div className="logosNaMidia">
@@ -145,7 +141,7 @@ export default function Home() {
 
       <div className="aindaComDuvida">
         <h1>AINDA COM DÚVIDA?</h1>
-        <p>Abaixo você encontra as perguntas mais comuns sobre a mentoria</p>
+        <p>meu defeito é amar muito</p>
 
         <div>
           <PerguntasFrequentes />
