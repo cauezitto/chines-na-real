@@ -1,0 +1,20 @@
+.naMidia {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+    color: #AFAFAF;
+}
+
+.naMidia h1 {
+    margin: 35px 0 50px 0;
+}
+
+.logosNaMidia {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 50%;
+}

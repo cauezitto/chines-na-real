@@ -1,0 +1,30 @@
+.quem_sera_seu_professor {
+    display: flex;
+    justify-content: space-between;
+
+    height: 100%;
+
+   margin: 150px 0 0 0;
+
+
+}
+
+.quem_sera_seu_professor_textos{
+    width: 600px;
+    height: 100%;
+
+    margin: 100px 20% 0 0;
+}
+
+.quem_sera_seu_professor_textos h1 {
+    color: #E80C16;
+    padding: 0 0 30px 30px;
+}
+
+.quem_sera_seu_professor_textos p {
+    width: 550px;
+
+    font-size: 20px;
+    color: #000;
+}
+

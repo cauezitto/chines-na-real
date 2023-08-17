@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&family=Titillium+Web:wght@700&display=swap');
+
+
+.oq_dizem_os_alunos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding-top: 65px;
+
+    background-image: url(../../public/backVira03.svg);
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.oq_dizem_os_alunos h1 {
+    font-size: 45px;
+    color: #E80C16;
+
+    padding: 20px 0 0 70px;
+
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+.quadrados_alunos {
+    display: flex;
+}
+
+
+
+/* este são os quadrados que o jerfesson ta falando */
+
+.alunosFalando {
+    height: 250px;
+    width: 400px;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+    margin: 30px 70px 30px 70px;
+}
+    
+.voltalaunosfalando {
+    margin: 20px 20px 20px 20px;
+}
+
+.alunosFalando_texto_com_img {
+    display: flex;
+    align-items: center;
+}
+
+.alunosFalando_texto_com_img h1 {
+    font-size: 30px;
+    color: #ef4040;
+
+    padding: 0 0 0 20px;
+}
+
+.alunosFalando p {   
+    color: #000;
+}
+

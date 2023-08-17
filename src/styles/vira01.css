@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
+#menu-cima{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100vh;
+
+    background: url(../../public/backVira01.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+#menu-cima aside {
+  width: 437px;
+}
+
+#logoPrincipal {
+     width: 1000px;
+}
+
+#menu-cima h2 {
+  color: #E80C16;
+  font-size: 41px;
+  font-family: 'Titillium Web', sans-serif;
+  line-height: 45px;
+}
+
+#menu-cima strong {
+  color: #000000;
+}
+
+#menu-cima p {
+  color: #000000;
+  font-size: 19px;
+  font-family: 'Nunito Sans', sans-serif;
+  padding-top: 12px;
+}
+
+.imgBrainAjuste {
+  display: flex;
+  align-items: flex-end;
+
+  height: 100vh;
+}
