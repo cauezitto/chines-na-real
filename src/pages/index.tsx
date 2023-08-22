@@ -126,13 +126,13 @@ export default function Home() {
               da rede municipal até traduções em fábricas e entrevistas para a
               TV. Embora tenha conquistado essas realizações, eu ainda sentia
               que poderia fazer mais. Decidi então empreender e, no início de
-              2021, criei a página "Chinês na Real" no Facebook e Instagram. Lá,
-              produzo conteúdo para ajudar mais pessoas a aprender o idioma de
-              forma prática, com dicas, exercícios e curiosidades sobre a
-              cultura chinesa. Além disso, estou sempre desenvolvendo novos
-              projetos e ideias para tornar o aprendizado do chinês mais
-              acessível e divertido. Se você quer aprender chinês de verdade,
-              venha comigo nessa jornada!
+              2021, criei a página &quot;Chinês na Real&quot; no Facebook e
+              Instagram. Lá, produzo conteúdo para ajudar mais pessoas a
+              aprender o idioma de forma prática, com dicas, exercícios e
+              curiosidades sobre a cultura chinesa. Além disso, estou sempre
+              desenvolvendo novos projetos e ideias para tornar o aprendizado do
+              chinês mais acessível e divertido. Se você quer aprender chinês de
+              verdade, venha comigo nessa jornada!
             </p>
           </div>
 
