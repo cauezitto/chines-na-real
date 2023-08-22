@@ -13,13 +13,13 @@ import React, { ButtonHTMLAttributes } from "react";
 
 export function Button() {
   return (
-    <div>
+    <div className="button_wrapper">
       <a className="button" href="">
-        INSCREVER-SE AGORA POR 12X <h4>R$130</h4>
+        INSCREVER-SE AGORA POR 12X &nbsp; <span>R$130</span>
       </a>
 
       <h3>
-        Ou à vista com desconto por <strong>R$1200</strong>
+        Ou à vista com desconto <br /> por <strong>R$1200</strong>
       </h3>
     </div>
   );

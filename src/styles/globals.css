@@ -20,3 +20,41 @@ textarea {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
 }
+
+.break_1024 {
+  display: none;
+}
+
+.break_wide {
+  display: none;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+
+  .break_1024 {
+    display: unset;
+  }
+}
+
+@media (min-width: 1025px) {
+  .break_wide {
+    display: unset;
+  }
+}
+
+@media (max-width: 768px) {
+  .break_1024 {
+    display: none;
+  }
+
+  .mobile {
+    display: unset;
+  }
+}

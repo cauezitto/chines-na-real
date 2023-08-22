@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
       <div id="menu-cima">
-        <aside>
+        <aside id="topo">
           <Image
             src={logoPrincipal}
             alt="logotipo chines na real"
@@ -38,11 +38,21 @@ export default function Home() {
           <Button />
         </aside>
         <div className="imgBrainAjuste">
-          <Image
-            src={braianVira01}
-            alt="foto braiam apontando para a esquerda em com uma cara de uau"
-            height={900}
-          />
+          <div className="break_1024">
+            <Image
+              src={braianVira01}
+              alt="foto braiam apontando para a esquerda em com uma cara de uau"
+              height={550}
+            />
+          </div>
+
+          <div className="break_wide">
+            <Image
+              src={braianVira01}
+              alt="foto braiam apontando para a esquerda em com uma cara de uau"
+              height={700}
+            />
+          </div>
         </div>
       </div>
       <div className="modulo_da_mentoria">
@@ -53,12 +63,22 @@ export default function Home() {
               Oque você vai receber ao se <br></br> inscrever neste treinamento
             </h2>
           </div>
-          <div className="imagem_modulo_da_mentoria">
-            <Image
-              src={casaFaxadaVira02}
-              alt="Santuário Kanda Myojin parte frontal do santuário"
-              width={1100}
-            />
+          <div className="imagem_modulo_da_mentoria temple">
+            <div className="break_wide">
+              <Image
+                src={casaFaxadaVira02}
+                alt="Santuário Kanda Myojin parte frontal do santuário"
+                width={850}
+              />
+            </div>
+
+            <div className="break_1024 temples">
+              <Image
+                src={casaFaxadaVira02}
+                alt="Santuário Kanda Myojin parte frontal do santuário"
+                width={650}
+              />
+            </div>
           </div>
         </div>
 
@@ -69,8 +89,18 @@ export default function Home() {
         </div>
       </div>
       <div className="oq_dizem_os_alunos">
-        <Image src={aulagratuita} alt="" width={1100} />
-        <div>
+        <div className="break_wide">
+          <Image src={aulagratuita} alt="" width={1000} />
+        </div>
+
+        <div className="break_1024">
+          <Image src={aulagratuita} alt="" width={800} />
+        </div>
+
+        <div className="mobile">
+          <Image src={aulagratuita} alt="" width={300} />
+        </div>
+        <div className="oq_dizem_os_alunos_wrapper">
           <h1>Oque Dizem Os Alunos</h1>
           <div className="quadrados_alunos">
             <AlunosDizendo />
@@ -106,11 +136,29 @@ export default function Home() {
             </p>
           </div>
 
-          <Image
-            src={braianVira04}
-            alt="foto braiam apontando para a esquerda em com uma cara de uau"
-            height={700}
-          />
+          <div className="break_1024">
+            <Image
+              src={braianVira04}
+              alt="foto braiam apontando para a esquerda em com uma cara de uau"
+              height={500}
+            />
+          </div>
+
+          <div className="break_wide">
+            <Image
+              src={braianVira04}
+              alt="foto braiam apontando para a esquerda em com uma cara de uau"
+              height={700}
+            />
+          </div>
+
+          <div className="mobile">
+            <Image
+              src={braianVira04}
+              alt="foto braiam apontando para a esquerda em com uma cara de uau"
+              height={320}
+            />
+          </div>
         </div>
       </div>
       <div className="garantia_de_7dias">
@@ -158,13 +206,16 @@ export default function Home() {
             alt="logotipo chines na real"
             width={160}
           />
+          <br />
           <Button />
         </div>
       </div>
 
       <div className="rodape">
         <div className="voltarAoTopo">
-          <Image src={voltaAoTopo} alt="" width={35} />
+          <a href="#topo" target="_self">
+            <Image src={voltaAoTopo} alt="" width={35} />
+          </a>
           <h1>voltar ao topo</h1>
         </div>
 

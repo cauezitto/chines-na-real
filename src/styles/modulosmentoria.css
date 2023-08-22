@@ -1,92 +1,144 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&display=swap");
 
 .modulo_da_mentoria {
-    display: flex;
-    flex-direction: row;
-
-    background-color: #212121;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background-color: #212121;
+  align-items: flex-start;
 }
 
 .textoEimmagem {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  max-width: 50%;
+  z-index: 5;
 }
 
 .textos_modulo_da_mentoria {
-    padding: 0 0 40px 35%;
-
+  padding: 0 0 40px 10%;
 }
 
 .textos_modulo_da_mentoria h1 {
-    color: #E80C16;
-    font-size: 30px;
+  color: #e80c16;
+  font-size: 3rem;
+  margin-top: 50px;
 
-    font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .textos_modulo_da_mentoria h2 {
-    font-size: 45px;
+  font-size: 2rem;
 
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 900;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
 }
 
 .imagem_modulo_da_mentoria {
-    display: flex;
-    align-items: flex-end;
+  display: flex;
+  align-items: flex-end;
 
-    margin-top: 40px;
+  margin-top: 40px;
 }
-
-
 
 /* este é o que está em volta dos quadrados vermelhos da direita na segunda vira */
 
 .tres_queadros_modulos_mentoria {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 
-    width: 100%;
-    
-    padding: 20px 0 20px 0;
+  width: 100%;
+
+  padding: 20px 0 20px 0;
+  z-index: 5;
 }
 
 /* este é o quadrado vermelho na segunda vira */
 
 .modulosmentorias {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 
-    width: 550px;
-    height: 280px;
+  width: 500px;
+  height: 240px;
 
-    border: 5px solid #E80C16;
-    border-radius: 15px;
+  border: 5px solid #e80c16;
+  border-radius: 15px;
 
-    margin: 20px 0 20px 10px;
+  margin: 20px 0 20px 10px;
 }
 
 .modulosmentorias h1 {
-    font-size: 28px;
-    color: #E80C16;
-    
+  font-size: 28px;
+  color: #e80c16;
 }
 
-
 .h2modulomentoria {
-    width: 430px;
+  width: 100%;
 }
 
 .modulosmentorias h2 {
-    font-size: 20px;
-    color: #fff;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 500;
-    text-align: initial;
-    
+  font-size: 20px;
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  text-align: initial;
+}
+
+.temple {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+@media (max-width: 1440px) {
+  .textos_modulo_da_mentoria {
+    padding: 0 0 40px 10%;
+  }
+  .modulosmentorias {
+    width: 500px;
+    height: 240px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .textos_modulo_da_mentoria {
+    padding: 0 0 40px 10%;
+  }
+  .modulosmentorias {
+    width: 450px;
+    height: 260px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .modulo_da_mentoria {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .modulo_da_mentoria {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .textoEimmagem {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .textos_modulo_da_mentoria {
+    width: 100%;
+  }
+  .modulosmentorias {
+    width: 90%;
+    height: fit-content;
+  }
 }

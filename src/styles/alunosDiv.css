@@ -1,64 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&family=Titillium+Web:wght@700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&family=Titillium+Web:wght@700&display=swap");
 
 .oq_dizem_os_alunos {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 
-    padding-top: 65px;
+  padding-top: 65px;
 
-    background-image: url(../../public/backVira03.svg);
-    background-repeat: no-repeat;
-    background-size: contain; 
+  background-image: url(../../public/backVira03.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.oq_dizem_os_alunos_wrapper {
+  width: 100%;
+  padding: 0 10%;
 }
 
 .oq_dizem_os_alunos h1 {
-    font-size: 45px;
-    color: #E80C16;
+  font-size: 45px;
+  color: #e80c16;
 
-    padding: 20px 0 0 70px;
-
-    font-family: 'Titillium Web', sans-serif;
-
+  font-family: "Titillium Web", sans-serif;
+  margin-bottom: 50px;
+  margin-top: 30px;
 }
 
 .quadrados_alunos {
-    display: flex;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
 }
-
-
 
 /* este são os quadrados que o jerfesson ta falando */
 
 .alunosFalando {
-    height: 250px;
-    width: 400px;
+  height: fit-content;
+  width: 400px;
+
+  background-color: white;
+
+  border-radius: 15px;
+  padding: 20px;
+  /* margin: 30px 70px 30px 70px; */
+}
+
+.voltalaunosfalando {
+  /* margin: 20px 20px 20px 20px; */
+}
+
+.alunosFalando_texto_com_img {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100px;
+  width: 100%;
+}
+
+.alunosFalando_texto_com_img h1 {
+  font-size: 1.6rem;
+  color: #ef4040;
+  margin-left: 10px;
+}
+
+.alunosFalando p {
+  color: #000;
+  font-size: 1rem;
+}
+
+@media (max-width: 1450px) {
+  .oq_dizem_os_alunos_wrapper {
+    width: 100%;
+    padding: 0 5%;
+  }
+
+  .alunosFalando {
+    height: fit-content;
+    width: 380px;
 
     background-color: white;
 
     border-radius: 15px;
-
-    margin: 30px 70px 30px 70px;
-}
-    
-.voltalaunosfalando {
-    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    /* margin: 30px 70px 30px 70px; */
+  }
 }
 
-.alunosFalando_texto_com_img {
-    display: flex;
-    align-items: center;
+@media (max-width: 1024px) {
+  .alunosFalando {
+    width: 280px;
+    padding: 15px;
+  }
+
+  .oq_dizem_os_alunos_wrapper {
+    padding: 0 3%;
+  }
 }
 
-.alunosFalando_texto_com_img h1 {
-    font-size: 30px;
-    color: #ef4040;
+@media (max-width: 768px) {
+  .quadrados_alunos {
+    flex-direction: column;
+    gap: 30px;
+  }
 
-    padding: 0 0 0 20px;
+  .alunosFalando {
+    width: 95%;
+    padding: 20px;
+  }
 }
-
-.alunosFalando p {   
-    color: #000;
-}
-
