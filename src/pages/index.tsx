@@ -172,8 +172,8 @@ export default function Home() {
             Eu respeito seu direito de &quot;arrependimento de compra&quot;. Por
             isso, em até 7 dias após sua inscrição, você pode pedir reembolso e
             vou te devolver integralmente o seu dinheiro. Basta enviar um e-mail
-            para o suporte em “canais de contato” e pedir o reembolso. Você
-            receberá cada centavo investido sem NENHUMA PERGUNTA. Simples
+            para o suporte em &quot;canais de contato&quot; e pedir o reembolso.
+            Você receberá cada centavo investido sem NENHUMA PERGUNTA. Simples
             assim!!
           </p>
 
