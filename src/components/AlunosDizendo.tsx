@@ -13,11 +13,11 @@ export function AlunosDizendo() {
             <h1>Jefferson Souza</h1>
           </div>
           <p>
-            "Recomendo fortemente a mentoria de pronúncia em chinês. As aulas
-            são personalizadas de acordo com minhas necessidades e dificuldades
-            específicas. A abordagem prática e os exercícios de pronúncia têm
-            sido extremamente úteis. Estou muito satisfeito com os resultados
-            até agora!"
+            &quot;Recomendo fortemente a mentoria de pronúncia em chinês. As
+            aulas são personalizadas de acordo com minhas necessidades e
+            dificuldades específicas. A abordagem prática e os exercícios de
+            pronúncia têm sido extremamente úteis. Estou muito satisfeito com os
+            resultados até agora!&quot;
           </p>
         </div>
       </div>
