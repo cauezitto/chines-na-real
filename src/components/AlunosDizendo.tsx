@@ -1,4 +1,4 @@
-import aluno01 from "../../public/aluno01.svg";
+// import aluno01 from "../../public/aluno01.svg";
 
 import Image from "next/image";
 import { Button } from "./Button";
@@ -9,7 +9,7 @@ export function AlunosDizendo() {
       <div className="alunosFalando">
         <div className="voltalaunosfalando">
           <div className="alunosFalando_texto_com_img">
-            <Image src={aluno01} alt="Imagem dos alunos" width={80} />
+            <Image src="/aluno01.svg" alt="Imagem dos alunos" width={80} />
             <h1>Jefferson Souza</h1>
           </div>
           <p>

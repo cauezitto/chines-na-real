@@ -1,13 +1,3 @@
-import logoPrincipal from "../../public/lofoPrincipal.svg";
-import braianVira01 from "../../public/braianVira01.svg";
-import braianVira04 from "../../public/braianVira04.svg";
-import casaFaxadaVira02 from "../../public/casaChinesaVira02.svg";
-import aulagratuita from "../../public/imgAulaGratuita.svg";
-import youtubeLogo from "../../public/youtubeLogo.svg";
-import r7Logo from "../../public/r7Logo.svg";
-import globonewsLogo from "../../public/globoNewsLogo.svg";
-import voltaAoTopo from "../../public/voltaAoTopo.svg";
-
 import Image from "next/image";
 
 import { Button } from "@/components/Button";
@@ -21,7 +11,7 @@ export default function Home() {
       <div id="menu-cima">
         <aside id="topo">
           <Image
-            src={logoPrincipal}
+            src="/lofoPrincipal.svg"
             alt="logotipo chines na real"
             width={160}
           />
@@ -40,7 +30,7 @@ export default function Home() {
         <div className="imgBrainAjuste">
           <div className="break_1024">
             <Image
-              src={braianVira01}
+              src="/braianVira01.svg"
               alt="foto braiam apontando para a esquerda em com uma cara de uau"
               height={550}
             />
@@ -48,7 +38,7 @@ export default function Home() {
 
           <div className="break_wide">
             <Image
-              src={braianVira01}
+              src="/braianVira01.svg"
               alt="foto braiam apontando para a esquerda em com uma cara de uau"
               height={700}
             />
@@ -66,7 +56,7 @@ export default function Home() {
           <div className="imagem_modulo_da_mentoria temple">
             <div className="break_wide">
               <Image
-                src={casaFaxadaVira02}
+                src="/casaChinesaVira02.svg"
                 alt="Santuário Kanda Myojin parte frontal do santuário"
                 width={850}
               />
@@ -74,7 +64,7 @@ export default function Home() {
 
             <div className="break_1024 temples">
               <Image
-                src={casaFaxadaVira02}
+                src="/casaChinesaVira02.svg"
                 alt="Santuário Kanda Myojin parte frontal do santuário"
                 width={650}
               />
@@ -90,15 +80,15 @@ export default function Home() {
       </div>
       <div className="oq_dizem_os_alunos">
         <div className="break_wide">
-          <Image src={aulagratuita} alt="" width={1000} />
+          <Image src="/imgAulaGratuita.svg" alt="" width={1000} />
         </div>
 
         <div className="break_1024">
-          <Image src={aulagratuita} alt="" width={800} />
+          <Image src="/imgAulaGratuita.svg" alt="" width={800} />
         </div>
 
         <div className="mobile">
-          <Image src={aulagratuita} alt="" width={300} />
+          <Image src="/imgAulaGratuita.svg" alt="" width={300} />
         </div>
         <div className="oq_dizem_os_alunos_wrapper">
           <h1>Oque Dizem Os Alunos</h1>
@@ -138,7 +128,7 @@ export default function Home() {
 
           <div className="break_1024">
             <Image
-              src={braianVira04}
+              src="/braianVira04.svg"
               alt="foto braiam apontando para a esquerda em com uma cara de uau"
               height={500}
             />
@@ -146,7 +136,7 @@ export default function Home() {
 
           <div className="break_wide">
             <Image
-              src={braianVira04}
+              src="/braianVira04.svg"
               alt="foto braiam apontando para a esquerda em com uma cara de uau"
               height={700}
             />
@@ -154,7 +144,7 @@ export default function Home() {
 
           <div className="mobile">
             <Image
-              src={braianVira04}
+              src="/braianVira04.svg"
               alt="foto braiam apontando para a esquerda em com uma cara de uau"
               height={320}
             />
@@ -183,9 +173,9 @@ export default function Home() {
       <div className="naMidia">
         <h1>Na Mídia</h1>
         <div className="logosNaMidia">
-          <Image src={youtubeLogo} alt="" width={150} />
-          <Image src={r7Logo} alt="" width={50} />
-          <Image src={globonewsLogo} alt="" width={150} />
+          <Image src="/youtubeLogo.svg" alt="" width={150} />
+          <Image src="/r7Logo.svg" alt="" width={50} />
+          <Image src="/globoNewsLogo.svg" alt="" width={150} />
         </div>
       </div>
 
@@ -203,7 +193,7 @@ export default function Home() {
 
         <div className="logoComBotaoAindaComDuvida">
           <Image
-            src={logoPrincipal}
+            src="/lofoPrincipal.svg"
             alt="logotipo chines na real"
             width={160}
           />
@@ -215,7 +205,7 @@ export default function Home() {
       <div className="rodape">
         <div className="voltarAoTopo">
           <a href="#topo" target="_self">
-            <Image src={voltaAoTopo} alt="" width={35} />
+            <Image src="/voltaAoTopo.svg" alt="" width={35} />
           </a>
           <h1>voltar ao topo</h1>
         </div>
