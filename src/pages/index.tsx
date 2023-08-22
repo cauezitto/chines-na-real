@@ -1,6 +1,6 @@
 import logoPrincipal from "../../public/lofoPrincipal.svg";
 import braianVira01 from "../../public/braianVira01.svg";
-import braianVira04 from "../../public/braianVira04.svg";
+import braianVira04 from "../../public/braianvira04.svg";
 import casaFaxadaVira02 from "../../public/casaChinesaVira02.svg";
 import aulagratuita from "../../public/imgAulaGratuita.svg";
 import youtubeLogo from "../../public/youtubeLogo.svg";
