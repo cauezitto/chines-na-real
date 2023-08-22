@@ -6,6 +6,7 @@
   position: relative;
   background-color: #212121;
   align-items: flex-start;
+  padding-left: 5%;
 }
 
 .textoEimmagem {
@@ -115,6 +116,9 @@
     width: 450px;
     height: 260px;
     padding: 10px;
+  }
+  .modulo_da_mentoria {
+    padding-left: 0;
   }
 }
 

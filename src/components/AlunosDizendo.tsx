@@ -9,7 +9,12 @@ export function AlunosDizendo() {
       <div className="alunosFalando">
         <div className="voltalaunosfalando">
           <div className="alunosFalando_texto_com_img">
-            <Image src="/aluno01.svg" alt="Imagem dos alunos" width={80} />
+            <Image
+              src="/aluno01.svg"
+              alt="Imagem dos alunos"
+              width={80}
+              height={80}
+            />
             <h1>Jefferson Souza</h1>
           </div>
           <p>
