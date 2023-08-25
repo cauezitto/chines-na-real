@@ -1,12 +1,12 @@
 import logoPrincipal from "../../public/lofoPrincipal.svg";
-import braianVira01 from "../../public/braianVira01.png";
+import braianVira01 from "../../public/braianvira01.png";
 import braianVira04 from "../../public/braianvira04.png";
-import casaFaxadaVira02 from "../../public/casaChinesaVira02.png";
-import aulagratuita from "../../public/imgAulaGratuita.png";
-import youtubeLogo from "../../public/youtubeLogo.svg";
-import r7Logo from "../../public/r7Logo.svg";
-import globonewsLogo from "../../public/globoNewsLogo.svg";
-import voltaAoTopo from "../../public/voltaAoTopo.svg";
+import casaFaxadaVira02 from "../../public/casachinesaVira02.png";
+import aulagratuita from "../../public/imgaulagratuita.png";
+import youtubeLogo from "../../public/youtubelogo.svg";
+import r7Logo from "../../public/r7logo.svg";
+import globonewsLogo from "../../public/globonewslogo.svg";
+import voltaAoTopo from "../../public/voltaaotopo.svg";
 
 import Image from "next/image";
 
