@@ -58,7 +58,7 @@ export default function Home() {
       <div className="modulo_da_mentoria">
         <div className="textoEimmagem">
           <div className="textos_modulo_da_mentoria">
-            <h1>Módulos da mentoria</h1>
+            <h1>Método da mentoria</h1>
             <h2>
               Oque você vai receber ao se <br></br> inscrever neste treinamento
             </h2>
