@@ -29,11 +29,18 @@ export default function Home() {
             Destrave sua pronúncia e desperte seu potencial{" "}
             <strong>com um método ágil e eficiente</strong>
           </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at
-            ligula semper, sagittis nulla at <br />
-            tincidunt leo. Quisque finibus ipsum ut dui ultrices, ut sagittis
-            justo tristique. Sed ac eleifend leo, ut fermentum ex.
+          <p style={{ fontSize: "1.3rem", fontWeight: 600, marginBottom: 20 }}>
+            {`Cansado de cursinhos razos com aulas monótonas que só te ensinam aquele famoso "be-a-ba" que você já sabe?`}{" "}
+            <br />
+            Aprenda{" "}
+            <b style={{ fontWeight: 800, fontSize: "1.2rem" }}>
+              CHINÊS DE VERDADE
+            </b>{" "}
+            sem enrolação com aulas intuitivas e{" "}
+            <b style={{ fontWeight: 800, fontSize: "1.2rem" }}>
+              {" "}
+              ENCONTROS AO VIVO TODA SEMANA!
+            </b>
           </p>
           <Button />
         </aside>
@@ -58,10 +65,10 @@ export default function Home() {
       <div className="modulo_da_mentoria">
         <div className="textoEimmagem">
           <div className="textos_modulo_da_mentoria">
-            <h1>Método da mentoria</h1>
-            <h2>
+            <h2>Método da mentoria</h2>
+            <h3 className="secondaryTitle">
               Oque você vai receber ao se <br></br> inscrever neste treinamento
-            </h2>
+            </h3>
           </div>
           <div className="imagem_modulo_da_mentoria temple">
             <div className="break_wide">
@@ -83,9 +90,33 @@ export default function Home() {
         </div>
 
         <div className="tres_queadros_modulos_mentoria">
-          <ModulosMentoriaQuadrado />
-          <ModulosMentoriaQuadrado />
-          <ModulosMentoriaQuadrado />
+          <ModulosMentoriaQuadrado title="PLANO DE AÇÃO">
+            <p>
+              Mapa e roteiro de estudos que descreve em detalhes as tarefas que
+              você precisa fazer e como fazê-las
+            </p>
+          </ModulosMentoriaQuadrado>
+          <ModulosMentoriaQuadrado title="CONTEÚDOS INTUITÍVOS">
+            <p>
+              Aprenda de forma divertida com trechos rápidos de desenhos
+              animados. <br /> <br /> Acredite... muitas vezes você vai entender
+              a palavra apenas pelo contexto sem nunca ter a visto antes
+            </p>
+          </ModulosMentoriaQuadrado>
+          <ModulosMentoriaQuadrado title="PRÁTICA">
+            <p>
+              Exercícios práticos que você vai precisar fazer todos os dias para
+              ATIVAR as suas habilidades linguisticas, especialmente a FALA
+            </p>
+          </ModulosMentoriaQuadrado>
+
+          <ModulosMentoriaQuadrado title="ACOMPANHAMENTO">
+            <p>
+              Toda semana teremos encontros ao vivo pelo aplicativo ZOOM onde
+              vamos poder nos conhecer melhor e poder fazer aulas variadas de
+              acordo com a sua necessidade!
+            </p>
+          </ModulosMentoriaQuadrado>
         </div>
       </div>
       <div className="oq_dizem_os_alunos">
@@ -180,6 +211,9 @@ export default function Home() {
           <Button />
         </div>
       </div>
+      <section>
+        <h2></h2>
+      </section>
       <div className="naMidia">
         <h1>Na Mídia</h1>
         <div className="logosNaMidia">
@@ -194,11 +228,26 @@ export default function Home() {
         <p>Abaixo você encontra as perguntas mais comuns sobre a mentoria</p>
 
         <div>
-          <PerguntasFrequentes />
-          <PerguntasFrequentes />
-          <PerguntasFrequentes />
-          <PerguntasFrequentes />
-          <PerguntasFrequentes />
+          <PerguntasFrequentes
+            ask="Por quanto tempo tenho acesso à mentoria?"
+            answer="Resposta da pergunta"
+          />
+          <PerguntasFrequentes
+            ask="Se eu não gostar posso cancelar?"
+            answer="Resposta da pergunta"
+          />
+          <PerguntasFrequentes
+            ask="É possível cancelar após os 7 dias?"
+            answer="Resposta da pergunta"
+          />
+          <PerguntasFrequentes
+            ask="Como funcionam as aulas, são gravadas ou ao vivo?"
+            answer="Resposta da pergunta"
+          />
+          <PerguntasFrequentes
+            ask="Não tenho cartão de crédito. É possível parcelar de outra forma?"
+            answer="Resposta da pergunta"
+          />
         </div>
 
         <div className="logoComBotaoAindaComDuvida">

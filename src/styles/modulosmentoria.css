@@ -21,17 +21,15 @@
   padding: 0 0 40px 10%;
 }
 
-.textos_modulo_da_mentoria h1 {
+.textos_modulo_da_mentoria h2 {
   color: #e80c16;
   font-size: 3rem;
   margin-top: 50px;
-
   font-family: "Nunito Sans", sans-serif;
 }
 
-.textos_modulo_da_mentoria h2 {
+.textos_modulo_da_mentoria .box-title {
   font-size: 2rem;
-
   font-family: "Nunito Sans", sans-serif;
   font-weight: 900;
 }
@@ -39,7 +37,6 @@
 .imagem_modulo_da_mentoria {
   display: flex;
   align-items: flex-end;
-
   margin-top: 40px;
 }
 
@@ -57,12 +54,20 @@
   z-index: 5;
 }
 
+.secondaryTitle {
+  font-size: 2rem;
+  font-family: Nunito Sans, sans-serif;
+  font-weight: 900;
+  color: #fff;
+  padding-left: 0;
+}
+
 /* este é o quadrado vermelho na segunda vira */
 
 .modulosmentorias {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: flex-start;
 
   width: 500px;
@@ -72,9 +77,10 @@
   border-radius: 15px;
 
   margin: 20px 0 20px 10px;
+  padding: 1rem;
 }
 
-.modulosmentorias h1 {
+.modulosmentorias h2 {
   font-size: 28px;
   color: #e80c16;
 }
@@ -83,7 +89,7 @@
   width: 100%;
 }
 
-.modulosmentorias h2 {
+.modulosmentorias p {
   font-size: 20px;
   color: #fff;
   font-family: "Nunito Sans", sans-serif;
