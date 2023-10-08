@@ -30,16 +30,11 @@ export default function Home() {
             <strong>com um método prático e eficiente</strong>
           </h2>
           <p style={{ fontSize: "1.3rem", fontWeight: 600, marginBottom: 20 }}>
-            {`Cansado de estudar e não colocar em prática oque aprende`} <br />
-            Aprenda{" "}
-            <b style={{ fontWeight: 800, fontSize: "1.2rem" }}>
-              CHINÊS DE VERDADE
-            </b>{" "}
-            sem enrolação com aulas intuitivas e{" "}
-            <b style={{ fontWeight: 800, fontSize: "1.2rem" }}>
-              {" "}
-              ENCONTROS AO VIVO TODA SEMANA!
-            </b>
+            {`Cansado de estudar e não conseguir botar o seu chinês na prática?`}{" "}
+            <br />
+            Estude já com um método diferente{" "}
+            <b> focado na prática do idioma </b> por meio de vídeo aulas
+            intuitivas e <b> encontros ao vivo toda semana!</b>
           </p>
           <Button />
         </aside>
@@ -49,6 +44,7 @@ export default function Home() {
               src={braianVira01}
               alt="foto braiam apontando para a esquerda em com uma cara de uau"
               height={550}
+              style={{ marginTop: 200 }}
             />
           </div>
 
