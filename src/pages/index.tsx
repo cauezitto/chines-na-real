@@ -143,7 +143,7 @@ export default function Home() {
             />
             <AlunosDizendo
               foto="/desconhecida1.png"
-              nome="Sirina"
+              nome="Sinara Menezes"
               texto="As aulas dele são indescritíveis! Fazem apenas alguns mese sque eu estudo com o professor Braian e ele sempre mostrou uma proficiência enorme. Além da metodologia simples e fácil, é de rápido aprendizado, ele sempre se adápta as minha exigências e conseguiu me fazer ler caracteres em menos tempo que eu esperava! Recomendo a todos de coração!"
             />
             <AlunosDizendo
