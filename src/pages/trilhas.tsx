@@ -14,6 +14,7 @@ const Trilhas = () => {
 
       <div className="modules">
         <div className="module-box module1">
+          <span className="disclaimer red">Sem acesso às aulas ao vivo!</span>
           <h2>Tilha Start</h2>
           <p>
             Não sabe nada de chinês? Não se preocupe! Com a nossa mentoria
@@ -29,6 +30,7 @@ const Trilhas = () => {
           <ConvertButton />
         </div>
         <div className="module-box module2">
+          <span className="disclaimer green">Com acesso às aulas ao vivo!</span>
           <h2>Tilha Avançada</h2>
           <p>
             Já possui o conhecimento básico de chinês e deseja atingir a
@@ -45,6 +47,7 @@ const Trilhas = () => {
           <ConvertButton />
         </div>
         <div className="module-box module3">
+          <span className="disclaimer green">Com acesso às aulas ao vivo!</span>
           <h2> Combo Fluency </h2>
           <p>
             Quer passar de iniciante a fluente em chinês? Nossa mentoria "Zero à

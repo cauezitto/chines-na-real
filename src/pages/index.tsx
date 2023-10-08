@@ -5,7 +5,7 @@ import casaFaxadaVira02 from "../../public/casachinesavira02.png";
 import aulagratuita from "../../public/imgaulagratuita.png";
 import youtubeLogo from "../../public/youtubelogo.svg";
 import r7Logo from "../../public/r7logo.svg";
-import globonewsLogo from "../../public/globonewslogo.svg";
+import globonewsLogo from "../../public/sbt-news-logo.png";
 import voltaAoTopo from "../../public/voltaaotopo.svg";
 
 import Image from "next/image";
@@ -120,7 +120,53 @@ export default function Home() {
         </div>
       </div>
       <div className="oq_dizem_os_alunos">
-        <div className="break_wide">
+        <div className="oq_dizem_os_alunos_wrapper">
+          <h1>Oque Dizem Os Alunos</h1>
+          <div className="quadrados_alunos">
+            <AlunosDizendo
+              foto="/leticia.png"
+              nome="Letícia Ang"
+              texto="As aulas me ajudaram bastante, principalmente por causa da didática. Os diálogos e as leituras consistentes proporcionaram mais fluência e um melhor entendimento do idioma"
+            />
+            <AlunosDizendo
+              foto="/thales.png"
+              nome="Thales Henrique"
+              texto="O professor Braian é bem explicativo e tem a paciência em explicar o conteúdo para os alunos com dificuldade de aprender. sabe explciar bem e tem métodos simples e objetivos para o aprendizado dos alunos"
+            />
+            <AlunosDizendo
+              foto="/tifany.png"
+              nome="Tifany L. S. Vieira"
+              texto="O professor tem uma boa estratégia de ensino pelo simples fato de fazer diferente. Sempre usa o treinamento em voz alta para podermos treinar pronúncia, e isso é bom para quem tem dificuldade.... resumindo a proposta vale a pena!"
+            />
+          </div>
+
+          <div className="quadrados_alunos">
+            <AlunosDizendo
+              foto="/nicole.png"
+              nome="Nicole Bueno"
+              texto="As aulas do professor Braian são muito boas e eficientes. Ele explica de um jeito divertido e que não fica cansativo. No começo eu pensei que mandarim era um bicho de sete cabeças, e que nunca iria conseguir entender nada, mas aos poucos fui percebendo que não era difícil, e que tudo depende da nossa dedicação e das explicações da aula"
+            />
+            <AlunosDizendo
+              foto="/desconhecida1.png"
+              nome="Gótica do Violino"
+              texto="As aulas dele são indescritíveis! Fazem apenas alguns mese sque eu estudo com o professor Braian e ele sempre mostrou uma proficiência enorme. Além da metodologia simples e fácil, é de rápido aprendizado, ele sempre se adápta as minha exigências e conseguiu me fazer ler caracteres em menos tempo que eu esperava! Recomendo a todos de coração!"
+            />
+            <AlunosDizendo
+              foto="/desconhecida2.png"
+              nome="Menina cara de Lua"
+              texto="Braian é um lecionador que, tem a delicadeza de respeitar nosso limite e é flexível na forma de ensinar para promover um maior rendimento. Ele promove o ensino com paciência necessária para o aprendizado. É impossível para alguém que se dedique deixar de aprender todo o conteúdo repassado. Além do que é um curso dinâmico e interativo. Em suma: Aprovado pela pessoa mais exgente, inconsistente e cheia de desculpas"
+            />
+          </div>
+        </div>
+        <Button />
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        {/* <div className="break_wide">
           <Image src={aulagratuita} alt="" width={1000} />
         </div>
 
@@ -130,22 +176,7 @@ export default function Home() {
 
         <div className="mobile">
           <Image src={aulagratuita} alt="" width={300} />
-        </div>
-        <div className="oq_dizem_os_alunos_wrapper">
-          <h1>Oque Dizem Os Alunos</h1>
-          <div className="quadrados_alunos">
-            <AlunosDizendo />
-            <AlunosDizendo />
-            <AlunosDizendo />
-          </div>
-
-          <div className="quadrados_alunos">
-            <AlunosDizendo />
-            <AlunosDizendo />
-            <AlunosDizendo />
-          </div>
-        </div>
-        <Button />
+        </div> */}
 
         <div className="quem_sera_seu_professor">
           <div className="quem_sera_seu_professor_textos">
@@ -221,6 +252,15 @@ export default function Home() {
           <Image src={r7Logo} alt="" width={50} />
           <Image src={globonewsLogo} alt="" width={150} />
         </div>
+        <iframe
+          style={{ marginTop: 100 }}
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/_TqIk0oF-ck?si=Fb2Dip4-crNq7DcR&amp;start=54"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        ></iframe>
       </div>
 
       <div className="aindaComDuvida">
@@ -229,24 +269,24 @@ export default function Home() {
 
         <div>
           <PerguntasFrequentes
-            ask="Por quanto tempo tenho acesso à mentoria?"
-            answer="Resposta da pergunta"
+            ask="Por quanto tempo tenho acesso às aulas gravadas?"
+            answer="No caso das aulas básicas o acesso é de até um ano. No caso da mentoria o acesso é igual ao prazo da mentoria que é de 6 meses"
           />
           <PerguntasFrequentes
             ask="Se eu não gostar posso cancelar?"
-            answer="Resposta da pergunta"
+            answer="Temos 7 dias de prazo para o arrependimento incondicional da compra"
           />
           <PerguntasFrequentes
             ask="É possível cancelar após os 7 dias?"
-            answer="Resposta da pergunta"
+            answer="Num prazo máximo de até 15 dias você poderá nos enviar um email para solicitar o seu reembolso do valor pago e cancelar sua compra"
           />
           <PerguntasFrequentes
             ask="Como funcionam as aulas, são gravadas ou ao vivo?"
-            answer="Resposta da pergunta"
+            answer="As aulas são gravadas e ficam disponibilizadas na plataforma eduz. Uma vez na semana os alunos das trilhas avançado e combo fluency terão acesso também aos nossos encontros por zoom onde a aula será ao vivo"
           />
           <PerguntasFrequentes
             ask="Não tenho cartão de crédito. É possível parcelar de outra forma?"
-            answer="Resposta da pergunta"
+            answer="Para pagamentos a vista é possível fazer o pagamento via boleto ou pix. Porém em caso de pagamento parcelado somente no cartão de crédito"
           />
         </div>
 

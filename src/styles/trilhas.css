@@ -40,6 +40,7 @@
 }
 
 #trilhas .module-box {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,6 +52,23 @@
   color: #fff;
   min-height: 250px;
   max-width: 900px;
+}
+
+#trilhas .module-box .disclaimer {
+  position: absolute;
+  width: 150px;
+  bottom: 10px;
+  left: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+}
+
+#trilhas .module-box .red {
+  color: #e80c16;
+}
+
+#trilhas .module-box .green {
+  color: #26e80c;
 }
 
 #trilhas .module-box p {

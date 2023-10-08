@@ -24,8 +24,9 @@
 
 .quem_sera_seu_professor_textos p {
   width: 550px;
-
-  font-size: 20px;
+  line-height: 30px;
+  font-size: 1.48rem;
+  font-weight: 500;
   color: #000;
 }
 
