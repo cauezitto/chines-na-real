@@ -8,10 +8,15 @@
   padding-top: 65px;
 
   background-image: url("/backVira03.png");
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
   background-position-y: 100%;
   width: 100%;
+  /* background-size: (-1); */
+  /* -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1); */
 }
 
 .oq_dizem_os_alunos_wrapper {

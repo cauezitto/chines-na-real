@@ -148,12 +148,12 @@ export default function Home() {
             />
             <AlunosDizendo
               foto="/desconhecida1.png"
-              nome="Gótica do Violino"
+              nome="Sirina"
               texto="As aulas dele são indescritíveis! Fazem apenas alguns mese sque eu estudo com o professor Braian e ele sempre mostrou uma proficiência enorme. Além da metodologia simples e fácil, é de rápido aprendizado, ele sempre se adápta as minha exigências e conseguiu me fazer ler caracteres em menos tempo que eu esperava! Recomendo a todos de coração!"
             />
             <AlunosDizendo
               foto="/desconhecida2.png"
-              nome="Menina cara de Lua"
+              nome="Débora"
               texto="Braian é um lecionador que, tem a delicadeza de respeitar nosso limite e é flexível na forma de ensinar para promover um maior rendimento. Ele promove o ensino com paciência necessária para o aprendizado. É impossível para alguém que se dedique deixar de aprender todo o conteúdo repassado. Além do que é um curso dinâmico e interativo. Em suma: Aprovado pela pessoa mais exgente, inconsistente e cheia de desculpas"
             />
           </div>
@@ -182,19 +182,23 @@ export default function Home() {
           <div className="quem_sera_seu_professor_textos">
             <h1> Quem será seu professor?</h1>
             <p>
-              Olá! Me chamo Braian! <br />
-              Sou professor de chinês desde 2014. Durante esse tempo, trabalhei
-              em diferentes projetos, desde aulas para crianças e adolescentes
-              da rede municipal até traduções em fábricas e entrevistas para a
-              TV. Embora tenha conquistado essas realizações, eu ainda sentia
-              que poderia fazer mais. Decidi então empreender e, no início de
-              2021, criei a página &quot;Chinês na Real&quot; no Facebook e
-              Instagram. Lá, produzo conteúdo para ajudar mais pessoas a
-              aprender o idioma de forma prática, com dicas, exercícios e
-              curiosidades sobre a cultura chinesa. Além disso, estou sempre
-              desenvolvendo novos projetos e ideias para tornar o aprendizado do
-              chinês mais acessível e divertido. Se você quer aprender chinês de
-              verdade, venha comigo nessa jornada!
+              Olá, eu sou o Braian, Comecei a ensinar chinês em 2014 para alguns
+              amigos. Em pouco tempo, percebi que eu gostava de ensinar e que eu
+              poderia viver da minha paixão. No final de 2014 eu fui para a
+              China e fiquei lá por quase 3 meses. Quando retornei, decidi sair
+              da empresa da minha família e comecei a trabalhar na escola de uma
+              chinesa ensinando português para chineses. 2 anos e meio depois,
+              recebi uma proposta para participar de um projeto onde eu
+              ensinaria chinês para crianças e adolescentes da rede municipal.
+              Desde que comecei até hoje, realizei traduções em fábricas, dei
+              aulas em 2 empresas (1 chinesa e 1 brasileira) e dei 3 entrevistas
+              para a TV (1 delas para o SBT). Apesar de tais realizações, eu
+              acreditava que poderia oferecer mais, ajudar mais pessoas. Então,
+              no início de 2021, eu decidi empreender, e foi quando eu comecei
+              com a minha página “Chinês na Real” no Facebook e Instagram. E
+              desde então, venho produzindo conteúdo e desenvolvendo novos
+              projetos para ajudar cada vez mais pessoas a aprender de forma
+              prática o idioma chinês.
             </p>
           </div>
 
