@@ -26,12 +26,11 @@ export default function Home() {
             width={160}
           />
           <h2>
-            Destrave sua pronúncia e desperte seu potencial{" "}
-            <strong>com um método ágil e eficiente</strong>
+            Destrave a sua fala e desperte o seu potencial{" "}
+            <strong>com um método prático e eficiente</strong>
           </h2>
           <p style={{ fontSize: "1.3rem", fontWeight: 600, marginBottom: 20 }}>
-            {`Cansado de cursinhos razos com aulas monótonas que só te ensinam aquele famoso "be-a-ba" que você já sabe?`}{" "}
-            <br />
+            {`Cansado de estudar e não colocar em prática oque aprende`} <br />
             Aprenda{" "}
             <b style={{ fontWeight: 800, fontSize: "1.2rem" }}>
               CHINÊS DE VERDADE
