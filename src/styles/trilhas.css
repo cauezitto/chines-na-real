@@ -9,6 +9,9 @@
   padding: 100px 10%;
   color: #000;
   gap: 50px;
+  background-image: url("/background-trilhas.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #trilhas h1 {
@@ -68,7 +71,7 @@
 }
 
 #trilhas .module-box .green {
-  color: #26e80c;
+  color: #e8d20c;
 }
 
 #trilhas .module-box p {

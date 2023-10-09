@@ -19,7 +19,8 @@
 
 .quem_sera_seu_professor_textos h1 {
   color: #e80c16;
-  padding: 0 0 30px 30px;
+  /* padding: 0 0 ; */
+  margin-bottom: 20px;
 }
 
 .quem_sera_seu_professor_textos p {

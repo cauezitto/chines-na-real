@@ -15,53 +15,65 @@ const Trilhas = () => {
       <div className="modules">
         <div className="module-box module1">
           <span className="disclaimer red">Sem acesso às aulas ao vivo!</span>
-          <h2>Tilha Start</h2>
+          <h2>
+            Trilha <br /> &quot;Do Comunicador Proativo&quot;
+          </h2>
           <p>
-            Não sabe nada de chinês? Não se preocupe! Com a nossa mentoria
-            "Starter," você aprenderá o básico de forma descomplicada. Este é o
-            ponto de partida perfeito para quem deseja dominar o chinês, seja
-            para trabalho ou viagens à China. Inicie sua jornada hoje e descubra
-            como tornar-se fluente em chinês pode ser acessível e eficiente.
+            Quer destravar suas habilidades de comunicação em mandarim?
+            Apresentamos a "Trilha do Comunicador Pró-ativo"! <br /> Com aulas
+            gravadas e assistência diária, esta trilha é perfeita para você que
+            busca aprimorar suas habilidades linguísticas. Imagine-se confiante,
+            fluente e capaz de se comunicar em chinês. Não espere mais! Comece
+            sua jornada de crescimento no mandarim agora mesmo. Escolha a
+            "Trilha do Comunicador Pró-ativo" e destrave seu potencial
+            linguístico.
           </p>
 
           {/* <a href="">
             Desbloquear <br /> Acesso Agora
           </a> */}
-          <ConvertButton />
+          <ConvertButton price={965} />
         </div>
         <div className="module-box module2">
           <span className="disclaimer green">Com acesso às aulas ao vivo!</span>
-          <h2>Tilha Avançada</h2>
+          <h2>
+            Trilha <br /> &quot;Domínio do mandarim&quot;
+          </h2>
           <p>
-            Já possui o conhecimento básico de chinês e deseja atingir a
-            fluência? Nossa mentoria "Avançada" é projetada para levar suas
-            habilidades de conversação a um nível superior. Com nosso método
-            prático e foco na prática de conversação, você irá destravar suas
-            habilidades de comunicação em chinês e alcançar a fluência desejada.
-            Transforme seu conhecimento em habilidades práticas hoje mesmo.
+            Você deseja atingir um domínio sólido do mandarim? A "Trilha Domínio
+            do Mandarim" é sua resposta! Com aulas ao vivo e suporte contínuo,
+            esta trilha é ideal para estudantes ambiciosos que buscam
+            aperfeiçoar suas habilidades. Visualize-se dominando o mandarim,
+            participando de conversas fluentes e compreendendo profundamente a
+            língua e cultura chinesa. A hora de avançar é agora! Escolha a
+            "Trilha Domínio do Mandarim" e comece sua jornada em direção ao
+            domínio do mandarim.
           </p>
 
           {/* <a href="">
             Desbloquear <br /> Acesso Agora
           </a> */}
-          <ConvertButton />
+          <ConvertButton price={1365} />
         </div>
         <div className="module-box module3">
           <span className="disclaimer green">Com acesso às aulas ao vivo!</span>
-          <h2> Combo Fluency </h2>
+          <h2>
+            Trilha <br /> &quot;Mestre da Pronúncia&quot;
+          </h2>
           <p>
-            Quer passar de iniciante a fluente em chinês? Nossa mentoria "Zero à
-            Fluência" é a escolha ideal para quem está comprometido em aprender
-            chinês de maneira completa e eficaz. Não importa o seu ponto de
-            partida, nossa abordagem cuidadosamente planejada irá guiá-lo de
-            forma eficiente até a fluência. Comece sua jornada agora e descubra
-            como o chinês pode ser dominado de maneira acessível e gratificante.
+            Procurando aprimorar sua pronúncia em mandarim? Apresentamos a
+            "Trilha Mestre da Pronúncia." Este pacote exclusivo oferece aulas ao
+            vivo e um curso extra focado na perfeição da pronúncia chinesa.
+            Imagine-se falando mandarim com confiança e clareza, impressionando
+            todos com sua pronúncia impecável. Não perca a chance de se tornar
+            um mestre da pronúncia em chinês. Escolha a "Trilha Mestre da
+            Pronúncia" e comece sua jornada hoje mesmo!
           </p>
 
           {/* <a href="">
             Desbloquear <br /> Acesso Agora
           </a> */}
-          <ConvertButton />
+          <ConvertButton price={1420} />
         </div>
       </div>
     </main>

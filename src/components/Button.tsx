@@ -8,7 +8,7 @@ export function Button() {
       </a> */}
 
       <a className="button" href="/trilhas">
-        ESCOLHA AGORA A TRILHA PARA O SEU <br /> NÍVEL DE DIFICULDADE!
+        ESCOLHA AGORA A TRILHA PARA O SEU <br /> PLANO DE ESTUDOS!
       </a>
 
       {/* <h3>

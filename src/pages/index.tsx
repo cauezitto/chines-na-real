@@ -1,12 +1,18 @@
 import logoPrincipal from "../../public/lofoprincipal.svg";
 import braianVira01 from "../../public/braianvira01.png";
 import braianVira04 from "../../public/braianvira04.png";
-import casaFaxadaVira02 from "../../public/casachinesavira02.png";
+import casaFaxadaVira02 from "../../public/braian-graçom.png";
 import aulagratuita from "../../public/imgaulagratuita.png";
 import youtubeLogo from "../../public/youtubelogo.svg";
 import r7Logo from "../../public/r7logo.svg";
 import globonewsLogo from "../../public/sbt-news-logo.png";
 import voltaAoTopo from "../../public/voltaaotopo.svg";
+import { MdOutlineOndemandVideo } from "react-icons/md";
+import { LuFileSignature } from "react-icons/lu";
+import { GoDesktopDownload } from "react-icons/go";
+import { BiConversation, BiLogoZoom } from "react-icons/bi";
+import { BsFacebook } from "react-icons/bs";
+import { useState } from "react";
 
 import Image from "next/image";
 
@@ -16,6 +22,7 @@ import { AlunosDizendo } from "@/components/AlunosDizendo";
 import { PerguntasFrequentes } from "@/components/PerguntasFrequentes";
 
 export default function Home() {
+  const [showVimeoPlayer, setShowVimeoPlayer] = useState(false);
   return (
     <>
       <div id="menu-cima">
@@ -52,25 +59,26 @@ export default function Home() {
             <Image
               src={braianVira01}
               alt="foto braiam apontando para a esquerda em com uma cara de uau"
-              height={700}
+              height={600}
             />
           </div>
         </div>
       </div>
       <div className="modulo_da_mentoria">
-        <div className="textoEimmagem">
-          <div className="textos_modulo_da_mentoria">
-            <h2>Método da mentoria</h2>
-            <h3 className="secondaryTitle">
-              Oque você vai receber ao se <br></br> inscrever neste treinamento
-            </h3>
-          </div>
+        <div className="textos_modulo_da_mentoria">
+          <h2>Método da mentoria</h2>
+          <h3 className="secondaryTitle">
+            O&nbsp;que você vai receber ao se <br></br> inscrever neste
+            treinamento
+          </h3>
+        </div>
+        {/* <div className="textoEimmagem">
           <div className="imagem_modulo_da_mentoria temple">
             <div className="break_wide">
               <Image
                 src={casaFaxadaVira02}
                 alt="Santuário Kanda Myojin parte frontal do santuário"
-                width={850}
+                width={620}
               />
             </div>
 
@@ -82,41 +90,134 @@ export default function Home() {
               />
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="tres_queadros_modulos_mentoria">
-          <ModulosMentoriaQuadrado title="PLANO DE AÇÃO">
+          <ModulosMentoriaQuadrado
+            title="+ DE 210 VIDEOAULAS"
+            icon={<MdOutlineOndemandVideo />}
+          >
             <p>
-              Mapa e roteiro de estudos que descreve em detalhes as tarefas que
-              você precisa fazer e como fazê-las
+              Incluem 3 módulos com 3 séries de desenhos diferentes. Cada vídeo
+              com uma atividade prática para você treinar o seu chinês.
             </p>
           </ModulosMentoriaQuadrado>
-          <ModulosMentoriaQuadrado title="CONTEÚDOS INTUITÍVOS">
+          <ModulosMentoriaQuadrado
+            title="MATERIAIS DE APOIO"
+            icon={<GoDesktopDownload />}
+          >
             <p>
-              Aprenda de forma divertida com trechos rápidos de desenhos
-              animados. <br /> <br /> Acredite... muitas vezes você vai entender
-              a palavra apenas pelo contexto sem nunca ter a visto antes
+              Para tornar o seu estudo mais dinâmico, você terá ferramentas
+              variadas como PDFs, arquivos de áudio, flashcards e quizzes.
             </p>
           </ModulosMentoriaQuadrado>
-          <ModulosMentoriaQuadrado title="PRÁTICA">
+          <ModulosMentoriaQuadrado
+            title="ROTEIRO DE ESTUDOS"
+            icon={<LuFileSignature />}
+          >
             <p>
-              Exercícios práticos que você vai precisar fazer todos os dias para
-              ATIVAR as suas habilidades linguisticas, especialmente a FALA
+              Com a ajuda do roteiro, você não perderá tempo, pois saberá
+              exatamente que tarefa fazer e como fazer a cada dia.
             </p>
           </ModulosMentoriaQuadrado>
 
-          <ModulosMentoriaQuadrado title="ACOMPANHAMENTO">
+          <ModulosMentoriaQuadrado
+            title="SUPORTE DIÁRIO"
+            icon={<BiConversation />}
+          >
             <p>
-              Toda semana teremos encontros ao vivo pelo aplicativo ZOOM onde
-              vamos poder nos conhecer melhor e poder fazer aulas variadas de
-              acordo com a sua necessidade!
+              Acompanhamento e suporte diário para correção das tarefas e
+              feedbacks para saber onde melhorar.
+            </p>
+          </ModulosMentoriaQuadrado>
+
+          <ModulosMentoriaQuadrado
+            title="AULAS SEMANAIS AO VIVO"
+            icon={<BiLogoZoom />}
+          >
+            <p>
+              Aulas ao vivo via zoom onde trabalharemos conteúdos variados de
+              acordo com seu pedido ou necessidade.
+            </p>
+          </ModulosMentoriaQuadrado>
+
+          <ModulosMentoriaQuadrado
+            title="GRUPO NO FACEBOOK"
+            icon={<BsFacebook />}
+          >
+            <p>
+              Você poderá interagir com outras pessoas que têm os mesmos
+              objetivos e ainda receberá indicações para vagas de trabalho.
             </p>
           </ModulosMentoriaQuadrado>
         </div>
       </div>
       <div className="oq_dizem_os_alunos">
+        {!showVimeoPlayer && (
+          <>
+            <div
+              className="break_wide"
+              onClick={() => setShowVimeoPlayer(true)}
+              style={{ cursor: "pointer" }}
+            >
+              <Image src={aulagratuita} alt="" width={1000} />
+            </div>
+
+            <div
+              className="break_1024"
+              onClick={() => setShowVimeoPlayer(true)}
+              style={{ cursor: "pointer" }}
+            >
+              <Image src={aulagratuita} alt="" width={800} />
+            </div>
+
+            <div
+              className="mobile"
+              onClick={() => setShowVimeoPlayer(true)}
+              style={{ cursor: "pointer" }}
+            >
+              <Image src={aulagratuita} alt="" width={300} />
+            </div>
+          </>
+        )}
+
+        {showVimeoPlayer && (
+          <>
+            <iframe
+              src="https://player.vimeo.com/video/791315684?h=ee9492fd28"
+              width="100%"
+              height="360"
+              style={{ marginBottom: 15, border: 0 }}
+              className="break_1024"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+
+            <iframe
+              src="https://player.vimeo.com/video/791315684?h=ee9492fd28"
+              width="100%"
+              height="360"
+              style={{ marginBottom: 15, border: 0 }}
+              className="break_wide"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+
+            <iframe
+              src="https://player.vimeo.com/video/791315684?h=ee9492fd28"
+              width="100%"
+              height="360"
+              style={{ marginBottom: 15, border: 0 }}
+              className="mobile"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </>
+        )}
+
+        <Button />
         <div className="oq_dizem_os_alunos_wrapper">
-          <h1>Oque Dizem Os Alunos</h1>
+          <h1>O que dizem os alunos</h1>
           <div className="quadrados_alunos">
             <AlunosDizendo
               foto="/leticia.png"
@@ -126,7 +227,7 @@ export default function Home() {
             <AlunosDizendo
               foto="/thales.png"
               nome="Thales Henrique"
-              texto="O professor Braian é bem explicativo e tem a paciência em explicar o conteúdo para os alunos com dificuldade de aprender. sabe explciar bem e tem métodos simples e objetivos para o aprendizado dos alunos"
+              texto="O professor Braian é bem explicativo e tem a paciência em explicar o conteúdo para os alunos com dificuldade de aprender. Sabe explicar bem e tem métodos simples e objetivos para o aprendizado dos alunos"
             />
             <AlunosDizendo
               foto="/tifany.png"
@@ -144,56 +245,44 @@ export default function Home() {
             <AlunosDizendo
               foto="/desconhecida1.png"
               nome="Sinara Menezes"
-              texto="As aulas dele são indescritíveis! Fazem apenas alguns mese sque eu estudo com o professor Braian e ele sempre mostrou uma proficiência enorme. Além da metodologia simples e fácil, é de rápido aprendizado, ele sempre se adápta as minha exigências e conseguiu me fazer ler caracteres em menos tempo que eu esperava! Recomendo a todos de coração!"
+              texto="As aulas dele são indescritíveis! Fazem apenas alguns meses que eu estudo com o professor Braian e ele sempre mostrou uma proficiência enorme. Além da metodologia simples e fácil, é de rápido aprendizado. Ele sempre se adapta às minhas exigências e conseguiu me fazer ler caracteres em menos tempo que eu esperava! Recomendo a todos de coração!"
             />
             <AlunosDizendo
               foto="/desconhecida2.png"
               nome="Débora"
-              texto="Braian é um lecionador que, tem a delicadeza de respeitar nosso limite e é flexível na forma de ensinar para promover um maior rendimento. Ele promove o ensino com paciência necessária para o aprendizado. É impossível para alguém que se dedique deixar de aprender todo o conteúdo repassado. Além do que é um curso dinâmico e interativo. Em suma: Aprovado pela pessoa mais exgente, inconsistente e cheia de desculpas"
+              texto="Braian é um lecionador que tem a delicadeza de respeitar nosso limite e é flexível na forma de ensinar para promover um maior rendimento. Ele promove o ensino com paciência necessária para o aprendizado. É impossível para alguém que se dedique deixar de aprender todo o conteúdo repassado. Além do que é um curso dinâmico e interativo. Em suma: Aprovado pela pessoa mais exigente, inconsistente e cheia de desculpas"
             />
           </div>
         </div>
-        <Button />
 
+        {/* <br />
         <br />
         <br />
         <br />
-        <br />
-        <br />
-
-        {/* <div className="break_wide">
-          <Image src={aulagratuita} alt="" width={1000} />
-        </div>
-
-        <div className="break_1024">
-          <Image src={aulagratuita} alt="" width={800} />
-        </div>
-
-        <div className="mobile">
-          <Image src={aulagratuita} alt="" width={300} />
-        </div> */}
+        <br /> */}
 
         <div className="quem_sera_seu_professor">
           <div className="quem_sera_seu_professor_textos">
-            <h1> Quem será seu professor?</h1>
+            <h1> Quem será o seu professor?</h1>
             <p>
-              Olá, eu sou o Braian, Comecei a ensinar chinês em 2014 para alguns
+              Olá, eu sou o Braian! Comecei a ensinar chinês em 2014 para alguns
               amigos. Em pouco tempo, percebi que eu gostava de ensinar e que eu
-              poderia viver da minha paixão. No final de 2014 eu fui para a
-              China e fiquei lá por quase 3 meses. Quando retornei, decidi sair
-              da empresa da minha família e comecei a trabalhar na escola de uma
-              chinesa ensinando português para chineses. 2 anos e meio depois,
-              recebi uma proposta para participar de um projeto onde eu
-              ensinaria chinês para crianças e adolescentes da rede municipal.
-              Desde que comecei até hoje, realizei traduções em fábricas, dei
-              aulas em 2 empresas (1 chinesa e 1 brasileira) e dei 3 entrevistas
-              para a TV (1 delas para o SBT). Apesar de tais realizações, eu
-              acreditava que poderia oferecer mais, ajudar mais pessoas. Então,
-              no início de 2021, eu decidi empreender, e foi quando eu comecei
-              com a minha página “Chinês na Real” no Facebook e Instagram. E
-              desde então, venho produzindo conteúdo e desenvolvendo novos
-              projetos para ajudar cada vez mais pessoas a aprender de forma
-              prática o idioma chinês.
+              poderia viver da minha paixão. <br /> <br /> No final de 2014 eu
+              fui para a China e fiquei lá por quase 3 meses. Quando retornei,
+              decidi sair da empresa da minha família e comecei a trabalhar na
+              escola de uma chinesa ensinando português para chineses. 2 anos e
+              meio depois, recebi uma proposta para participar de um projeto
+              onde eu ensinaria chinês para crianças e adolescentes da rede
+              municipal. <br /> <br /> Desde que comecei até hoje, realizei
+              traduções em fábricas, dei aulas em 2 empresas (1 chinesa e 1
+              brasileira) e dei 3 entrevistas para a TV (1 delas para o SBT).{" "}
+              <br /> <br />
+              Apesar de tais realizações, eu acreditava que poderia oferecer
+              mais, ajudar mais pessoas. Então, no início de 2021, eu decidi
+              empreender, e foi quando eu comecei com a minha página “Chinês na
+              Real” no Facebook e Instagram. E desde então, venho produzindo
+              conteúdo e desenvolvendo novos projetos para ajudar cada vez mais
+              pessoas a aprender de forma prática o idioma chinês.
             </p>
           </div>
 
@@ -225,17 +314,16 @@ export default function Home() {
       <div className="garantia_de_7dias">
         <div className="garantia02">
           <h1>
-            GARANTIA INCONDÍCIONAL <br />
-            DE 7 DIAS
+            GARANTIA INCONDICIONAL <br />
+            DE 15 DIAS
           </h1>
 
           <p>
-            Eu respeito seu direito de &quot;arrependimento de compra&quot;. Por
-            isso, em até 7 dias após sua inscrição, você pode pedir reembolso e
-            vou te devolver integralmente o seu dinheiro. Basta enviar um e-mail
-            para o suporte em &quot;canais de contato&quot; e pedir o reembolso.
-            Você receberá cada centavo investido sem NENHUMA PERGUNTA. Simples
-            assim!!
+            Após entrar na mentoria, você terá até 15 dias para aplicar o que eu
+            te propor. Nesse período, se por qualquer razão você não gostar do
+            que adquiriu, não ver nenhum resultado real, basta mandar um e-mail
+            para a minha equipe que faremos o reembolso de cada centavo que você
+            investiu. Sem pegadinhas!
           </p>
 
           <Button />
