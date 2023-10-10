@@ -323,7 +323,7 @@ export default function Home() {
             te propor. Nesse período, se por qualquer razão você não gostar do
             que adquiriu, não ver nenhum resultado real, basta mandar um e-mail
             para a minha equipe que faremos o reembolso de cada centavo que você
-            investiu. Sem pegadinhas!
+            investiu. Sem pegadinhas!
           </p>
 
           <Button />
