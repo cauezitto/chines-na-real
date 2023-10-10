@@ -20,6 +20,7 @@ import { Button } from "@/components/Button";
 import { ModulosMentoriaQuadrado } from "@/components/ModulosMentoriaQuadrado";
 import { AlunosDizendo } from "@/components/AlunosDizendo";
 import { PerguntasFrequentes } from "@/components/PerguntasFrequentes";
+import SeloGarantia from "../../public/garantia-15-dias.png";
 
 export default function Home() {
   const [showVimeoPlayer, setShowVimeoPlayer] = useState(false);
@@ -312,7 +313,15 @@ export default function Home() {
         </div>
       </div>
       <div className="garantia_de_7dias">
+        <br />
+        <br />
         <div className="garantia02">
+          <Image
+            src={SeloGarantia}
+            height={170}
+            width={170}
+            alt="Selo de gatantia"
+          />
           <h1>
             GARANTIA INCONDICIONAL <br />
             DE 15 DIAS
