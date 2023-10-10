@@ -171,3 +171,10 @@
     height: fit-content;
   }
 }
+
+@media (max-width: 500px) {
+  .tres_queadros_modulos_mentoria {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
