@@ -371,23 +371,27 @@ export default function Home() {
         <div>
           <PerguntasFrequentes
             ask="Por quanto tempo tenho acesso às aulas gravadas?"
-            answer="No caso das aulas básicas o acesso é de até um ano. No caso da mentoria o acesso é igual ao prazo da mentoria que é de 6 meses"
+            answer="6 meses nos três pacotes"
           />
           <PerguntasFrequentes
             ask="Se eu não gostar posso cancelar?"
-            answer="Temos 7 dias de prazo para o arrependimento incondicional da compra"
-          />
-          <PerguntasFrequentes
-            ask="É possível cancelar após os 7 dias?"
-            answer="Num prazo máximo de até 15 dias você poderá nos enviar um email para solicitar o seu reembolso do valor pago e cancelar sua compra"
+            answer="Temos 15 dias de prazo para o arrependimento incondicional da compra"
           />
           <PerguntasFrequentes
             ask="Como funcionam as aulas, são gravadas ou ao vivo?"
-            answer="As aulas são gravadas e ficam disponibilizadas na plataforma eduz. Uma vez na semana os alunos das trilhas avançado e combo fluency terão acesso também aos nossos encontros por zoom onde a aula será ao vivo"
+            answer='As aulas são gravadas e ficam disponibilizadas na plataforma Neutror da Eduzz. Uma vez na semana os alunos das trilhas "Domínio do mandarim" e "Mestre da Pronúncia" poderão participar, uma vez por semana, dos nossos encontros ao vivo por zoom.'
           />
           <PerguntasFrequentes
-            ask="Não tenho cartão de crédito. É possível parcelar de outra forma?"
-            answer="Para pagamentos a vista é possível fazer o pagamento via boleto ou pix. Porém em caso de pagamento parcelado somente no cartão de crédito"
+            ask="Se eu não puder participar da aula ao vivo, terei a gravação dela disposição para ver outra hora? "
+            answer="Sim! Você terá no último módulo disponibilizado na plataforma."
+          />
+          <PerguntasFrequentes
+            ask="Não tenho cartão de crédito. É possível pagar de outra forma?"
+            answer="Para pagamentos à vista é possível fazer o pagamento via boleto ou Pix. Porém, no caso de pagar parcelado, somente via cartão de crédito."
+          />
+          <PerguntasFrequentes
+            ask="Em até quantas vezes eu posso parcelar o valor?"
+            answer="Em até 6 vezes com juros."
           />
         </div>
 
