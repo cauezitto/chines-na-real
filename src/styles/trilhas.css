@@ -147,7 +147,6 @@
     grid-template-areas:
       "a"
       "b" "c";
-    height: fit-content;
   }
   #trilhas .module3 {
     margin: 0;
@@ -155,9 +154,25 @@
 
   #trilhas .module-box {
     padding: 50px 10px;
+    width: 100%;
+    height: fit-content;
+    /* justify-content: flex-start; */
   }
 
   #trilhas .module-box a {
     flex-direction: column;
+  }
+  #trilhas .module-box .disclaimer {
+    margin-top: 10px;
+    /* position: relative; */
+  }
+
+  #trilhas .module-box .button,
+  #trilhas .module-box .button_wrapper {
+    width: 100%;
+    /* position: relative; */
+  }
+  #trilhas .module-box .button_wrapper {
+    margin-bottom: 40px;
   }
 }
