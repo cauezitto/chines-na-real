@@ -76,7 +76,7 @@
   height: 70px;
 }
 
-duvidasFrequentes .answer-container {
+/* .duvidasFrequentes .answer-container {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -84,11 +84,11 @@ duvidasFrequentes .answer-container {
   background-color: #000000;
   color: #f8f8f2;
   height: 70px;
-}
+} */
 
 @media (max-width: 768px) {
   .duvidasFrequentes {
-    width: 95%;
+    width: 100%;
     align-items: center;
     justify-content: center;
   }
@@ -98,6 +98,7 @@ duvidasFrequentes .answer-container {
     align-items: center;
     width: 100%;
     margin: auto;
+    padding: 0 2%;
     margin-top: 90px;
   }
 
