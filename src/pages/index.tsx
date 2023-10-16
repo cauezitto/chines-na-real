@@ -348,6 +348,19 @@ export default function Home() {
           <Image src={r7Logo} alt="" width={50} />
           <Image src={globonewsLogo} alt="" width={150} />
         </div>
+
+        <div className="break_wide">
+          <iframe
+            style={{ marginTop: 100 }}
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/_TqIk0oF-ck?si=Fb2Dip4-crNq7DcR&amp;start=54"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </div>
+
         <div className="break_1024">
           <iframe
             style={{ marginTop: 100 }}
