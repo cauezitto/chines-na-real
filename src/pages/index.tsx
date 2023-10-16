@@ -387,7 +387,7 @@ export default function Home() {
       </div>
 
       <div className="aindaComDuvida">
-        <h1>AINDA COM DÚVIDA?</h1>
+        <h1 className="duvida-titulo">AINDA COM DÚVIDA?</h1>
         <p>Abaixo você encontra as perguntas mais comuns sobre a mentoria</p>
 
         <div>

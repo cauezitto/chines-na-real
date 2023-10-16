@@ -102,6 +102,11 @@
     margin-top: 90px;
   }
 
+  .aindaComDuvida .duvida-titulo {
+    text-align: center;
+    width: 100%;
+  }
+
   .logoComBotaoAindaComDuvida {
     width: 100%;
     margin-bottom: 80px;
