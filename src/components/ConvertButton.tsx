@@ -2,11 +2,12 @@ import React from "react";
 
 type ButtonProps = {
   price: number;
+  link: string;
 };
 
 const parcelas = 6;
 
-export default function Button({ price = 0 }: ButtonProps) {
+export default function Button({ price = 0, link }: ButtonProps) {
   const calcularMontanteParcelado = (
     principal: number,
     taxaDeJurosMensal: number,
@@ -18,7 +19,7 @@ export default function Button({ price = 0 }: ButtonProps) {
   };
   return (
     <div className="button_wrapper">
-      <a className="button" href="">
+      <a className="button" href={link}>
         INSCREVER-SE AGORA POR ATÉ {parcelas}X &nbsp;{" "}
         <span>
           {(

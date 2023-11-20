@@ -7,7 +7,7 @@ export function Button() {
         INSCREVER-SE AGORA POR 12X &nbsp; <span>R$130</span>
       </a> */}
 
-      <a className="button" href="/trilhas">
+      <a className="button" href="/mentoria/trilhas">
         ESCOLHA AGORA A TRILHA PARA O SEU <br /> PLANO DE ESTUDOS!
       </a>
 

@@ -1,12 +1,12 @@
-import logoPrincipal from "../../public/lofoprincipal.svg";
-import braianVira01 from "../../public/braianvira01.png";
-import braianVira04 from "../../public/braianvira04.png";
-import casaFaxadaVira02 from "../../public/braian-graçom.png";
-import aulagratuita from "../../public/imgaulagratuita.png";
-import youtubeLogo from "../../public/youtubelogo.svg";
-import r7Logo from "../../public/r7logo.svg";
-import globonewsLogo from "../../public/sbt-news-logo.png";
-import voltaAoTopo from "../../public/voltaaotopo.svg";
+import logoPrincipal from "../../../public/lofoprincipal.svg";
+import braianVira01 from "../../../public/braianvira01.png";
+import braianVira04 from "../../../public/braianvira04.png";
+import casaFaxadaVira02 from "../../../public/braian-graçom.png";
+import aulagratuita from "../../../public/imgaulagratuita.png";
+import youtubeLogo from "../../../public/youtubelogo.svg";
+import r7Logo from "../../../public/r7logo.svg";
+import globonewsLogo from "../../../public/sbt-news-logo.png";
+import voltaAoTopo from "../../../public/voltaaotopo.svg";
 import { MdOutlineOndemandVideo } from "react-icons/md";
 import { LuFileSignature } from "react-icons/lu";
 import { GoDesktopDownload } from "react-icons/go";
@@ -20,7 +20,7 @@ import { Button } from "@/components/Button";
 import { ModulosMentoriaQuadrado } from "@/components/ModulosMentoriaQuadrado";
 import { AlunosDizendo } from "@/components/AlunosDizendo";
 import { PerguntasFrequentes } from "@/components/PerguntasFrequentes";
-import SeloGarantia from "../../public/garantia-15-dias.png";
+import SeloGarantia from "../../../public/garantia-15-dias.png";
 
 export default function Home() {
   const [showVimeoPlayer, setShowVimeoPlayer] = useState(false);

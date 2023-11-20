@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import logoPrincipal from "../../public/lofoprincipal.svg";
+import logoPrincipal from "../../../public/lofoprincipal.svg";
 // import { Container } from './styles';
-import ConvertButton from "../components/ConvertButton";
+import ConvertButton from "../../components/ConvertButton";
 
 const Trilhas = () => {
   return (
@@ -32,7 +32,7 @@ const Trilhas = () => {
           {/* <a href="">
             Desbloquear <br /> Acesso Agora
           </a> */}
-          <ConvertButton price={965} />
+          <ConvertButton price={965} link="https://chk.eduzz.com/2133275" />
         </div>
         <div className="module-box module2">
           <span className="disclaimer green">Com acesso às aulas ao vivo!</span>
@@ -53,7 +53,7 @@ const Trilhas = () => {
           {/* <a href="">
             Desbloquear <br /> Acesso Agora
           </a> */}
-          <ConvertButton price={1365} />
+          <ConvertButton price={1365} link="https://chk.eduzz.com/2140232" />
         </div>
         <div className="module-box module3">
           <span className="disclaimer green">Com acesso às aulas ao vivo!</span>
@@ -73,7 +73,7 @@ const Trilhas = () => {
           {/* <a href="">
             Desbloquear <br /> Acesso Agora
           </a> */}
-          <ConvertButton price={1420} />
+          <ConvertButton price={1420} link="https://chk.eduzz.com/2140237" />
         </div>
       </div>
     </main>
